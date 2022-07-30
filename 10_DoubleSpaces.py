@@ -1,0 +1,5 @@
+a=input("Enter the string :")
+b=a.count("  ")
+print("The no of double spaces in the string is :",b)
+a.replace("  "," ")
+print(a)
